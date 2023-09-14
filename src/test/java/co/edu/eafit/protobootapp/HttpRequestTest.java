@@ -35,7 +35,7 @@ public class HttpRequestTest {
     @Test
     public void testCuboPorDefecto() throws Exception {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/cubo",
-                String.class)).containsPattern("El cubo de 0[\\.,]000000 es 0[\\.,]000000");
+                String.class)).containsPattern("El  de 0[\\.,]000000 es 0[\\.,]000000");
     }
     
     @Test
